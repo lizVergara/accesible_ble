@@ -67,7 +67,12 @@ class _BleButtonState extends State<BleButton>
               backgroundColor: AppColors.primary,
               elevation: 10,
             ),
-            child: const Icon(Icons.bluetooth, color: Colors.white, size: 60),
+            child: const Icon(
+              Icons.bluetooth,
+              color: Colors.white,
+              size: 60,
+              semanticLabel: 'hola sofia',
+            ),
           ),
         ],
       ),
